@@ -11,50 +11,6 @@ import FullPost from '../../components/FullPost/FullPost';
 class Blog extends Component {
     state = {
         posts : []
-       /* posts : [
-            {id:1 , name:"Maria" , attr : ["attr1" , "attr2" , "attr3" , "attr4" , "attr5"]},
-            {id:2 , name:"boules"},
-            {id:3 , name:"jhkjdfhg"},
-            {id:4 , name:"jhkjdfhg"},
-            {id:5 , name:"jhkjdfhg"},
-            {id:6 , name:"jhkjdfhg"},
-            {id:7 , name:"jhkjdfhg"},
-            {id:8 , name:"jhkjdfhg"},
-            {id:9 , name:"jhkjdfhg"},
-            {id:10 , name:"jhkjdfhg"},
-            {id:11 , name:"jhkjdfhg"},
-            {id:12 , name:"jhkjdfhg"},
-            {id:13 , name:"jhkjdfhg"},
-            {id:14 , name:"boules"},
-            {id:15 , name:"boules"},
-            {id:16 , name:"boules"},
-            {id:17 , name:"boules"},
-            {id:18 , name:"boules"},
-            {id:19 , name:"boules"},
-            {id:20 , name:"boules"},
-            {id:21 , name:"boules"},
-            {id:22 , name:"boules"},
-            {id:23 , name:"boules"},
-            {id:24 , name:"boules"},
-            {id:25 , name:"boules"},
-            {id:26 , name:"boules"},
-            {id:27 , name:"boules"},
-            {id:28 , name:"boules"},
-            {id:29 , name:"boules"},
-            {id:30 , name:"boules"},
-            {id:31 , name:"boules"},
-            {id:32 , name:"boules"},
-            {id:33 , name:"boules"},
-            {id:34 , name:"boules"},
-            {id:35 , name:"boules"},
-            {id:36 , name:"boules"},
-            {id:37 , name:"boules"},
-            {id:38 , name:"boules"},
-            {id:39 , name:"boules"},
-            {id:40 , name:"boules"},
-            {id:41 , name:"7mada"},
-
-        ]*/
     }
     componentDidMount(){
         var data = require('../../db.json');
