@@ -1,0 +1,33 @@
+.title{
+    margin: 25px;
+    font-size: 20px;
+}
+.featuresBox{
+    box-shadow: 5px 5px 5px 3px #888888;
+}
+.featuresBox input {
+    width: 40px;
+    cursor: pointer;
+}
+.featuresBox label {
+    cursor: pointer;
+    font-size: 18px;
+    color: green;
+}
+.featuresBox label:hover{
+    color: blue
+}
+.myList{
+    width: 100%;
+}
+.mt20{
+    margin-top:25px;
+}
+.close{
+    float: right;
+    border: none;
+}
+.deviceBox{
+    display: inline-block;
+    float: left;
+}

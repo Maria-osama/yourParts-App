@@ -1,0 +1,24 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.loadMore{
+    width: 20%;
+    margin: 0 40%;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid #719071;
+    color: #719071;
+}
+button:hover{
+    background-color: #719071;
+    color : white;
+}
+.title{
+    font-style: italic;
+    color: blue;
+    font-weight: bold;
+}

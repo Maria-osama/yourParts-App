@@ -1,0 +1,12 @@
+.settingBox{
+    width: 50%;
+    margin: 50px auto;
+    border: 1px solid grey;
+    box-shadow: 4px 4px darkgray;
+}
+.settingBox div{
+    padding: 20px;
+}
+.settingBox .manual{
+    width: 45px;
+}
